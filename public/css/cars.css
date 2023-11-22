@@ -1,0 +1,219 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+    font-style: normal;
+  }
+  
+  .container-fluid {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  
+  .center-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .vh-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .v-center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .header-section {
+    background-color: #f1f3ff;
+  }
+  
+  /* ********** NAVIGATION ********** */
+  
+  .fixed-position {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .navigation-section .navbar-brand img {
+    margin-left: 15px;
+    height: 36px;
+  }
+  
+  .navigation-section .navbar-nav .offcanvasRightLabel a:hover {
+    color: blue !important;
+  }
+  /* @media (max-width: 768px) {
+    .offcanvas-end {
+      width: 190px !important;
+    }
+  } */
+  /* @media (max-width: 1920px) {
+    .offcanvas-end {
+      position: relative;
+    }
+  } */
+  /* @media (max-width: 768px) {
+    .card-body {
+      margin-top: -15px;
+      height: 100%;
+      padding: 15px;
+      object-fit: cover;
+      flex-wrap: wrap;
+    }
+  } */
+  .nav-position {
+    position: relative;
+    top: 24px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000 !important;
+    border-color: #000000;
+  }
+  
+  .btn-register {
+    height: 36px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+    border: none;
+    border-radius: 2px;
+    background-color: #5cb85f;
+  }
+  
+  .btn-register:hover {
+    opacity: 60%;
+  }
+  
+  .navbar-toggler img {
+    width: 30px;
+    height: auto;
+  }
+  
+  /* Banner */
+  
+  .first-section {
+    padding-top: 97px;
+  }
+  
+  .first-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Helvetica;
+    padding-bottom: 40px;
+  }
+  
+  .first-desc h1 {
+    max-width: 568px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 150%;
+  }
+  
+  .first-desc p {
+    max-width: 468px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  .btn-rent-now {
+    width: 140px;
+    height: 36px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+    border: none;
+    border-radius: 2px;
+    background-color: #5cb85f;
+  }
+  
+  .btn-rent-now:hover {
+    opacity: 60%;
+  }
+  
+  .hero-image {
+    padding: 0;
+  }
+  
+  .img-car {
+    width: 49.46vw;
+  }
+  
+  @media only screen and (min-width: 0) and (max-width: 1500px) {
+    .img-car {
+      width: 100%;
+    }
+  }
+
+  .footer-section {
+    margin-top: 100px;
+    margin-bottom: 76px;
+    font-weight: 300 !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+  
+  .footer-section h5 {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 16px;
+  }
+  
+  .footer-section .navigation li {
+    list-style: none;
+    margin-bottom: 16px;
+  }
+  
+  .footer-section .navigation a {
+    position: relative;
+    right: 32px;
+  }
+  
+  .footer-section .navigation li a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .footer-section .navigation li a:hover {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  .footer-section .sosmed li {
+    position: relative;
+    left: -30px;
+    float: left;
+    list-style: none;
+    padding-right: 16px;
+    padding-bottom: 16px;
+  }
+  
+  .footer-section .sosmed li img:hover {
+    opacity: 60%;
+  }
+  .btn-success{
+    margin-right: 20px;
+    margin-top: 30px;
+    width: 200px;
+    height: 40px;
+  }
